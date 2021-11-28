@@ -55,6 +55,22 @@ img {
     clear: both;
 }
 
+.global-content{
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 27px;
+color: #798196;
+}
+.global-title{
+    color: #1D2B4F;
+    font-family: Source Sans Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 64px;
+}
 
 .btn-global{
     font-size: 16px;
@@ -166,13 +182,31 @@ color:#fff;
     margin-bottom: 120px;
 }
 
+.logo-area img{
+    transition: 300ms all;
+}
+
 .logo-area .container{
     padding: 0 100px;
 }
+.logo-area  img:hover{
+    transform: scale(1.2);
+}
+
 .header1{
-    background: #0C1A39;
+    width: 100%;
+    position: relative;
+}
+
+.header1 .bg2 img{
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
     height: 461px;
 }
+
+
 .heading-global{
     display: flex;
     justify-content: space-between;
@@ -202,10 +236,11 @@ color: #FFFFFF;
 .heading-global .btn-global{
     margin-top: 144px;
 }
-
+.header1 .col-lg-3{
+    height: 364px !important;
+}
 .card-item{
-    width: 296px;
-height: 364px;
+    height: 364px !important;
 background: #FFFFFF;
 border: 1px solid #CCCCCC;
 box-sizing: border-box;
@@ -213,19 +248,31 @@ border-radius: 8px;
 padding-top: 24px;
 padding-left: 24px;
 }
+
 .header1 .mb-col{
     margin-top: 56px;
 }
-.card-item.blue{
-    border-radius: 8px;
+
+.card-item:hover{
     border: none;
     background: #2449F3;
+    transition: 300ms all;
 }
-.card-item.blue .card-heading{
+.card-item:hover .card-content{
     color:#fff;
 }
 
-.card-item.blue .card-content{
+.card-item:hover  .card-heading{
+    color:#fff;
+}
+.card-item:hover i{
+    background: #fff;
+}
+.card-item.blue .card-heading{
+    color:#1D2B4F;
+}
+
+ .card-content{
     color:#fff;
 }
 .card-item .card-heading{
@@ -237,7 +284,15 @@ line-height: 48px;
 color:#1D2B4F;
 }
 
-.card-item svg{
+.card-item i{
+border-radius: 50%;
+font-size: 20px;
+background: #E6E6E6;
+width: 72px;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 72px;
 margin-bottom: 24px;
 }
 
@@ -249,5 +304,32 @@ font-weight: normal;
 font-size: 16px;
 line-height: 27px;
 color: #798196;
+}
 
+.who{
+    margin-top: 285px;
+}
+
+.who-left h3 {
+    margin-bottom: 20px;
+}
+
+.who-left .btn-global{
+    margin-top: 35px;
+}
+
+.who-right{
+    position: relative;
+}
+
+.who-right::after{
+    content:"";
+    width: 491.4px;
+    height: 556px;
+    z-index: -1;
+    left:60px;
+    top: -100px;
+    border-radius: 8px;
+    position: absolute;
+    background: url('../img/Background3.png');
 }
