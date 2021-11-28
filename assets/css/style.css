@@ -333,3 +333,75 @@ color: #798196;
     position: absolute;
     background: url('../img/Background3.png');
 }
+
+.ekip{
+    margin-top: 300px;
+}
+
+.heading-global-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.who-img-item{
+    position: relative;
+    margin-top: 56px;
+    display: flex;
+    justify-content: center;
+}
+
+.who-img-item img{
+    border-radius: 8px;
+   position: relative;
+}
+.who-img-item .overley{
+    position: relative;
+}
+
+.who-img-item .overley .img-abs{
+    position: absolute;
+    top: 5px;
+    height: 100%;
+}
+.who-img-item img::after{
+    content:"";
+    position: absolute;
+    top: 0;
+    background-size: cover;
+    width: 96%;
+    height: 100%;
+    background: url('../img/Overlay.png');
+}
+
+
+.img-text{
+    z-index: 1000;
+    position: absolute;
+    bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.img-text .name{
+font-family: Source Sans Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 48px;
+text-align: center;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+
+.img-text .work{
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 32px;
+text-align: center;
+text-transform: capitalize;
+color: #FFFFFF;
+}
