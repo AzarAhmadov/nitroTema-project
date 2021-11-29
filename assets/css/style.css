@@ -153,7 +153,9 @@ img {
     line-height: 27px;
     color: #798196;
 }
-
+.img-none{
+    display: none;
+}
 .global-title {
     color: #1D2B4F;
     font-family: Source Sans Pro;
@@ -1036,6 +1038,13 @@ justify-content: center !important;
     }
 }
 @media only screen and (max-width:600px){
+    .bg-for-header  img {
+     display: none;
+    }
+    .bg-for-header .img-none{
+        display: block !important;
+        height: 960px;
+    }
     .heading-global h2{
         font-size: 25px;
     }
