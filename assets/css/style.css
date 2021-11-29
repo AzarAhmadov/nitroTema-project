@@ -520,6 +520,27 @@ margin-bottom: 30px;
 .form-left .form-grid .form-name{
     color:#fff;
     margin-top: 16px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 27px;
+color: #FFFFFF;
+}
+
+.form-left .form-grid  i{
+    color: #FF9E2C;
+    font-size: 30px;
+    margin-right: 11px;
+}
+
+.form-left .form-grid .epo{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FF9E2C;
 }
 
 .form{
@@ -655,4 +676,34 @@ font-weight: normal;
 font-size: 16px;
 line-height: 27px;
 color: #798196;
+}
+
+.footer-bottom{
+    margin-top: 56px;
+    height: 56px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    width: 100%;
+    text-align: center;
+    background: #0C1A39;
+}
+
+.footer-bottom a{
+    color: #FFFFFF !important;
+    font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 27px;
+display: flex;
+}
+.footer-bottom a .nitro{
+    font-weight:700;
+    margin-left: 5px;
+}
+.footer-bottom a .tema{
+    color: #A1B71C;
+    font-weight:700;
+margin-right: 5px;
 }
