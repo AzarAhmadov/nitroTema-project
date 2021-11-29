@@ -880,7 +880,9 @@ font-size: 14px;
 
 @media only screen and (max-width:992px){
     .form{
-        height:910px;
+        height:990px;
+        margin-top: 0;
+        padding-top: 60px;
     }
     .form-left{
         margin-top: 30px;
@@ -1031,6 +1033,10 @@ justify-content: center !important;
     }
 }
 @media only screen and (max-width:600px){
+    .form{
+        padding-top: 30px;
+        height:1050px;
+    }
     .form-left .form-grid {
         grid-template-columns: repeat(2, 160px);
     }
@@ -1042,7 +1048,7 @@ justify-content: center !important;
         margin-top: -80px;
     }
     .slider-title{
-        font-size: 30px;
+        font-size: 25px;
     }
     .slid-content{
         font-size: 15px;
@@ -1114,5 +1120,21 @@ justify-content: center !important;
     }
     .form .form-grid div .form-name{
         font-size: 15px;
+    }
+   .form-left .form-title{
+       font-size: 25px;
+   }
+   .form-left .form-title br{
+       display: none;
+   }
+}
+
+@media only screen and (max-width:460px){
+    .who-right img{
+      width: 350px;
+      height: 300px;
+    }
+    .who-right::after {
+    height: 500px;
     }
 }
