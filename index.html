@@ -65,6 +65,7 @@
             </div>
         </div>
     </header>
+ <!-- Header End -->
 
     <main>
         <div class="bg-for-header">
@@ -72,6 +73,7 @@
             <img class="img-none" src="./assets/img/Background4.png" alt="">
         </div>
 
+        <!-- Hero start -->
         <section id="hero">
             <div class="container">
                 <div class="row">
@@ -96,7 +98,9 @@
                 </div>
             </div>
         </section>
+   <!-- Hero end -->
 
+   <!-- logo area start -->
         <div class="logo-area">
             <div class="container">
                 <div class="row">
@@ -110,7 +114,9 @@
                 </div>
             </div>
         </div>
+   <!-- logo area end -->
 
+   <!-- header 1 start -->
         <div class="header1">
             <div class="bg2"> <img src="./assets/img/Background3.png" alt=""> </div>
             <div class="container">
@@ -178,7 +184,9 @@
                 </div>
             </div>
         </div>
+   <!-- header 1 end-->
 
+<!-- who start -->
         <div class="who">
             <div class="container">
                 <div class="row">
@@ -205,7 +213,71 @@
                 </div>
             </div>
         </div>
+<!-- who end -->
 
+  <div class="projeler">
+      <div class="container">
+        <div class="d-flex  align-items-center justify-content-between px-1 proje-flex">
+            <h3 class="proje-title">
+                Projelerimiz
+            </h3>
+        <a href="#" class="btn-global">
+            Tümünü Gör
+        </a>
+        </div>
+        <div class="swiper mySwiper swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide  d-flex justify-content-center">
+              <div class="swip-item1">
+                    <div class="img-text">
+                    <span class="name">Web Tasarım</span>
+                    <span class="work">  - DijitalSat</span>
+                </div>
+              </div>
+              </div>
+              <div class="swiper-slide d-flex justify-content-center" >
+                <div class="swip-item2">
+                    <div class="img-text">
+                    <span class="name fs-3">Search Engine Optimization </span>
+                    <span class="work">  - Skala.Id</span>
+                </div>
+              </div>
+              </div>
+              <div class="swiper-slide d-flex justify-content-center ">
+                <div class="swip-item3">
+                    <div class="img-text">
+                    <span class="name">Email Marketing 
+                     </span>
+                    <span class="work"> - Gbgr</span>
+                </div>
+              </div>
+              </div>
+              <div class="swiper-slide d-flex justify-content-center ">
+                <div class="swip-item3">
+                    <div class="img-text">
+                    <span class="name">Email Marketing 
+                     </span>
+                    <span class="work"> - Gbgr</span>
+                </div>
+              </div>
+              </div>
+              <div class="swiper-slide d-flex justify-content-center ">
+                <div class="swip-item3">
+                    <div class="img-text">
+                    <span class="name">Email Marketing 
+                     </span>
+                    <span class="work"> - Gbgr</span>
+                </div>
+              </div>
+              </div>
+          
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+      </div>
+  </div>
+
+<!-- ekip start -->
         <div class="ekip">
             <div class="container">
                 <div class="heading-global-2">
@@ -248,7 +320,9 @@
                 </div>
             </div>
         </div>
+<!-- ekip end -->
 
+<!-- slider start -->
         <div class="slider">
             <div class="container">
                 <div class="row">
@@ -263,7 +337,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 d-flex align-items-center mt-5">
-                        <div class="swiper mySwiper">
+                        <div class="swiper mySwiper swip-two">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="slider-right swiper-slide">
@@ -402,7 +476,9 @@
                 </div>
             </div>
         </div>
+<!-- slider end -->
 
+<!-- form start -->
         <div class="form">
             <div class="container">
                 <div class="row">
@@ -461,9 +537,9 @@
                 </div>
             </div>
         </div>
-
+<!-- form end -->
     </main>
-
+<!-- footer start -->
     <footer id="footer">
         <div class="container">
             <div class="row">
@@ -555,7 +631,22 @@
             </a>
         </div>
     </footer>
+<!-- footer end  -->
+
+
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+          var swiper = new Swiper(".swip", {
+    slidesPerView: 3,
+    spaceBetween: 25,
+    freeMode: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
+ 
+    </script>
     <script src="./assets/js/main.js"></script>
 </body>
 

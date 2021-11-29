@@ -212,6 +212,56 @@ img {
     align-items: center;
     height: 120px;
 }
+.projeler{
+    margin-top: 257px;
+}
+
+.projeler .proje-flex{
+    margin-bottom: 77px;
+}
+
+.projeler .swiper-wrapper{
+   padding-bottom: 80px;
+}
+
+.projeler .swip-item1{
+    background-repeat: no-repeat !important;
+   background: linear-gradient(180deg, rgba(0, 8, 54, 0) 0%, rgba(0, 0, 0, 0.88) 100%)  
+  , url('../img/screencapture-adev-nitrotema-2021-11-28-16_43_59\ 1.png');
+  width:400px !important;
+height: 424px;
+border-radius: 8px;
+background-size: cover;
+background-position: center center;
+display: flex;
+justify-content: center;
+}
+.projeler  .swip-item2{
+    background-repeat: no-repeat !important;
+   background: linear-gradient(180deg, rgba(0, 8, 54, 0) 0%, rgba(0, 0, 0, 0.88) 100%)  
+  , url('../img/screencapture-adev-nitrotema-2021-11-28-16_43_59\ 1.png');
+  width:400px !important;
+height: 424px;
+border-radius: 8px;
+background-size: cover;
+background-position: center center;
+display: flex;
+justify-content: center;
+}
+.projeler  .swip-item3{
+    background-repeat: no-repeat !important;
+   background: linear-gradient(180deg, rgba(0, 8, 54, 0) 0%, rgba(0, 0, 0, 0.88) 100%)  
+  , url('../img/screencapture-adev-nitrotema-2021-11-28-16_43_59\ 1.png');
+  width:400px !important;
+height: 424px;
+border-radius: 8px;
+background-size: cover;
+background-position: center center;
+display: flex;
+justify-content: center;
+
+}
+
 
 .open-menu {
     color: #fff;
@@ -514,7 +564,7 @@ img {
 }
 
 .ekip {
-    margin-top: 300px;
+    margin-top: 120px;
 }
 
 .heading-global-2 {
@@ -537,20 +587,25 @@ img {
 
 .ekip .one-col {
     background: linear-gradient(180deg, rgba(0, 8, 54, 0) 0%, rgba(0, 0, 0, 0.88) 100%), url('../img/headshot-of-a-proffessional-man-2021-08-30-08-12-14-utc\ 1.png') no-repeat;
-    width: 400px;
+    width: 400px !important;
     height: 433px;
+    border-radius: 8px;
 }
 
 .ekip .two-col {
     background: linear-gradient(180deg, rgba(0, 8, 54, 0) 0%, rgba(0, 0, 0, 0.88) 100%), url('../img/headshot-of-beautiful-woman-20s-with-european-appe-2021-09-03-12-54-30-utc\ 1.png') no-repeat;
-    width: 400px;
+    width: 400px !important;
     height: 433px;
+    border-radius: 8px;
+
 }
 
 .ekip .three-col {
     background: linear-gradient(180deg, rgba(0, 8, 54, 0) 0%, rgba(0, 0, 0, 0.88) 100%), url('../img/bust-head-shot-self-portait-2021-08-29-01-07-50-utc\ 1.png') no-repeat;
-    width: 400px;
+    width: 400px !important;
     height: 433px;
+    border-radius: 8px;
+
 }
 
 .img-text {
@@ -641,7 +696,19 @@ img {
     color: #FFFFFF;
 
 }
+.proje-flex {
+    margin-bottom: 56px;
+}
 
+.proje-flex .proje-title{
+    font-family: Source Sans Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 64px;
+text-transform: capitalize;
+color: #1D2B4F;
+}
 .slider-right {
     position: relative;
 }
@@ -653,11 +720,11 @@ img {
     color: #CCCCCC;
 }
 
-.swiper-wrapper {
+.slider .swiper-wrapper {
     padding-bottom: 90px;
 }
 
-.swiper-pagination-horizontal {
+.slider .swiper-pagination-horizontal {
     width: 156px !important;
     position: absolute !important;
     left: 400px !important;
@@ -665,7 +732,7 @@ img {
     background: #fff !important;
 }
 
-.swiper-pagination-progressbar-fill {
+.slider .swiper-pagination-progressbar-fill {
     background: #FF9E2C !important;
 }
 
@@ -1153,6 +1220,31 @@ img {
 }
 
 @media only screen and (max-width:600px) {
+    .projeler{
+        margin-top: 200px;
+    }
+    .projeler .proje-flex{
+        flex-direction: column;
+        margin-bottom: 45px;
+    }
+    
+.ekip .one-col {
+    width: 330px !important;
+    background-size: cover;
+    background-position: center center;
+}
+
+.ekip .two-col {
+    width: 330px !important;
+    background-size: cover;
+    background-position: center center;
+}
+
+.ekip .three-col {
+    width: 330px !important;
+    background-size: cover;
+    background-position: center center;
+}
     .bg-for-header img {
         display: none;
     }
@@ -1225,7 +1317,7 @@ img {
         margin-bottom: 70px;
     }
 
-    .swiper-pagination-horizontal {
+   .slider  .swiper-pagination-horizontal {
         width: 156px !important;
         position: absolute !important;
         left: 50% !important;
