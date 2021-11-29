@@ -899,9 +899,12 @@ font-size: 14px;
     justify-content: center;
 }
     #footer .col-lg-3{
-        justify-content: flex-start !important;
+        justify-content: center !important;
         display: flex;
         margin-bottom: 10px;
+    }
+    #footer .footer-item{
+        text-align: center;
     }
     .who-col{
         justify-content: center;
