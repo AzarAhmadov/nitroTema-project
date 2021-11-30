@@ -185,9 +185,9 @@ img {
     z-index: 1000;
 }
 
-.btn-global::after{
+.btn-global::after {
     z-index: -1;
-    content:"";
+    content: "";
     width: 0;
     height: 100%;
     background: #e691309c;
@@ -195,10 +195,10 @@ img {
     left: 0;
     transition: 500ms all;
     border-radius: 8px;
-    
+
 }
 
-.btn-global:hover::after{
+.btn-global:hover::after {
     width: 100%;
     border-radius: 8px;
 }
@@ -207,58 +207,62 @@ img {
     margin-left: 134px;
 }
 
+#body.active {
+    overflow: hidden;
+}
+
 #header {
     display: flex;
     align-items: center;
     height: 120px;
 }
-.projeler{
+
+.projeler {
     margin-top: 257px;
 }
 
-.projeler .proje-flex{
+.projeler .proje-flex {
     margin-bottom: 77px;
 }
 
-.projeler .swiper-wrapper{
-   padding-bottom: 80px;
+.projeler .swiper-wrapper {
+    padding-bottom: 80px;
 }
 
-.projeler .swip-item1{
+.projeler .swip-item1 {
     background-repeat: no-repeat !important;
-   background: linear-gradient(180deg, rgba(0, 8, 54, 0) 0%, rgba(0, 0, 0, 0.88) 100%)  
-  , url('../img/screencapture-adev-nitrotema-2021-11-28-16_43_59\ 1.png');
-  width:400px !important;
-height: 424px;
-border-radius: 8px;
-background-size: cover;
-background-position: center center;
-display: flex;
-justify-content: center;
+    background: linear-gradient(180deg, rgba(0, 8, 54, 0) 0%, rgba(0, 0, 0, 0.88) 100%), url('../img/screencapture-adev-nitrotema-2021-11-28-16_43_59\ 1.png');
+    width: 400px !important;
+    height: 424px;
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
 }
-.projeler  .swip-item2{
+
+.projeler .swip-item2 {
     background-repeat: no-repeat !important;
-   background: linear-gradient(180deg, rgba(0, 8, 54, 0) 0%, rgba(0, 0, 0, 0.88) 100%)  
-  , url('../img/screencapture-adev-nitrotema-2021-11-28-16_43_59\ 1.png');
-  width:400px !important;
-height: 424px;
-border-radius: 8px;
-background-size: cover;
-background-position: center center;
-display: flex;
-justify-content: center;
+    background: linear-gradient(180deg, rgba(0, 8, 54, 0) 0%, rgba(0, 0, 0, 0.88) 100%), url('../img/screencapture-adev-nitrotema-2021-11-28-16_43_59\ 1.png');
+    width: 400px !important;
+    height: 424px;
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
 }
-.projeler  .swip-item3{
+
+.projeler .swip-item3 {
     background-repeat: no-repeat !important;
-   background: linear-gradient(180deg, rgba(0, 8, 54, 0) 0%, rgba(0, 0, 0, 0.88) 100%)  
-  , url('../img/screencapture-adev-nitrotema-2021-11-28-16_43_59\ 1.png');
-  width:400px !important;
-height: 424px;
-border-radius: 8px;
-background-size: cover;
-background-position: center center;
-display: flex;
-justify-content: center;
+    background: linear-gradient(180deg, rgba(0, 8, 54, 0) 0%, rgba(0, 0, 0, 0.88) 100%), url('../img/screencapture-adev-nitrotema-2021-11-28-16_43_59\ 1.png');
+    width: 400px !important;
+    height: 424px;
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
 
 }
 
@@ -298,7 +302,7 @@ justify-content: center;
     position: relative;
 }
 
-.navbar .nav-list li > ul{
+.navbar .nav-list li>ul {
     position: absolute;
     left: 0;
     padding: 10px 20px;
@@ -308,10 +312,12 @@ justify-content: center;
     opacity: 0;
     transition: 300ms all;
 }
-.navbar .nav-list li:hover > ul{
+
+.navbar .nav-list li:hover>ul {
     visibility: visible;
     opacity: 1;
 }
+
 .navbar .nav-list li ul li {
     padding-bottom: 8px;
     position: relative;
@@ -322,10 +328,10 @@ justify-content: center;
     padding: 10px 20px;
     width: 240px;
     top: 30px;
-    left:-20px;
+    left: -20px;
 }
 
-.navbar .nav-list li ul li a{
+.navbar .nav-list li ul li a {
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
@@ -334,7 +340,7 @@ justify-content: center;
     color: #E6E6E6;
 }
 
-.navbar > .nav-list  > .nav-item .nav-link {
+.navbar>.nav-list>.nav-item .nav-link {
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
@@ -343,7 +349,7 @@ justify-content: center;
     color: #E6E6E6;
 }
 
-.navbar .nav-list > li .nav-link.active {
+.navbar .nav-list>li .nav-link.active {
     font-family: Poppins;
     font-style: normal;
     font-weight: bold;
@@ -351,11 +357,12 @@ justify-content: center;
     line-height: 32px;
     color: #FFFFFF;
 }
-.navbar .nav-list > li svg{
+
+.navbar .nav-list>li svg {
     transform: rotate(-180deg);
 }
 
-.navbar .nav-list > li:hover svg{
+.navbar .nav-list>li:hover svg {
     transform: rotate(-1deg);
 }
 
@@ -696,19 +703,21 @@ justify-content: center;
     color: #FFFFFF;
 
 }
+
 .proje-flex {
     margin-bottom: 56px;
 }
 
-.proje-flex .proje-title{
+.proje-flex .proje-title {
     font-family: Source Sans Pro;
-font-style: normal;
-font-weight: bold;
-font-size: 48px;
-line-height: 64px;
-text-transform: capitalize;
-color: #1D2B4F;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    text-transform: capitalize;
+    color: #1D2B4F;
 }
+
 .slider-right {
     position: relative;
 }
@@ -968,6 +977,92 @@ color: #1D2B4F;
     margin-right: 5px;
 }
 
+#mobil-menu .mobil-open {
+    padding: 0;
+    position: fixed;
+    z-index: 10000;
+    width: 100%;
+    height: calc(100vh - 120px);
+    background: #fff;
+    left: -100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 400ms ease-in-out;
+}
+
+#mobil-menu .list-two {
+    padding: 0;
+    position: fixed;
+    z-index: 10000;
+    width: 100%;
+    height: calc(100vh - 120px);
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 400ms ease;
+    right: -100%;
+}
+
+#mobil-menu .list-two.active {
+    right: 0;
+
+}
+
+#mobil-menu .list-two li {
+    margin-bottom: 15px;
+}
+
+#mobil-menu .list-two li a {
+    color: #000;
+    font-size: 23px;
+}
+
+#mobil-menu .mobil-open.active {
+    left: 0;
+}
+
+#mobil-menu .icon {
+    top: 10px;
+    right: -20px;
+}
+
+#mobil-menu .list-two .close-btn {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#mobil-menu .mobil-open .close-btn {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#mobil-menu .list-two .geri {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    font-size: 35px;
+}
+
+#mobil-menu .mobil-open li {
+    margin-bottom: 15px;
+}
+
+#mobil-menu .mobil-open li a {
+    color: #000;
+    font-size: 23px;
+}
+
+
 @media only screen and (max-width:1200px) {
     .form-right form .input-flex {
         width: 0;
@@ -1220,31 +1315,33 @@ color: #1D2B4F;
 }
 
 @media only screen and (max-width:600px) {
-    .projeler{
+    .projeler {
         margin-top: 200px;
     }
-    .projeler .proje-flex{
+
+    .projeler .proje-flex {
         flex-direction: column;
         margin-bottom: 45px;
     }
-    
-.ekip .one-col {
-    width: 330px !important;
-    background-size: cover;
-    background-position: center center;
-}
 
-.ekip .two-col {
-    width: 330px !important;
-    background-size: cover;
-    background-position: center center;
-}
+    .ekip .one-col {
+        width: 330px !important;
+        background-size: cover;
+        background-position: center center;
+    }
 
-.ekip .three-col {
-    width: 330px !important;
-    background-size: cover;
-    background-position: center center;
-}
+    .ekip .two-col {
+        width: 330px !important;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    .ekip .three-col {
+        width: 330px !important;
+        background-size: cover;
+        background-position: center center;
+    }
+
     .bg-for-header img {
         display: none;
     }
@@ -1289,7 +1386,7 @@ color: #1D2B4F;
     }
 
     .ekip {
-        margin-top: 170px;
+        margin-top: 70px;
     }
 
     .slider {
@@ -1313,11 +1410,11 @@ color: #1D2B4F;
     }
 
     .logo-area {
-        margin-top: 120px;
+        margin-top: 110px;
         margin-bottom: 70px;
     }
 
-   .slider  .swiper-pagination-horizontal {
+    .slider .swiper-pagination-horizontal {
         width: 156px !important;
         position: absolute !important;
         left: 50% !important;

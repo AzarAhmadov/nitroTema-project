@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 </head>
 
-<body>
+<body id="body">
     <!-- Header Start -->
     <header id="header">
         <div class="container">
@@ -41,19 +41,19 @@
                                             d="M6 0L0 6L1.41 7.41L6 2.83L10.59 7.41L12 6L6 0Z" fill="#E6E6E6" />
                                     </svg>
                                 </a>
-                            <ul>
-                                <li><a href="#"> Sub Menu </a></li>
-                                <li><a href="#"> Sub Menu </a></li>
-                                <li><a href="#"> Sub Menu </a></li>
-                                <li><a href="#"> Sub Menu </a>
-                               <ul>
-                                   <li><a href="#"> Sub Menu </a></li>
-                                   <li><a href="#"> Sub Menu </a></li>
-                                   <li><a href="#"> Sub Menu </a></li>
-                                   <li><a href="#"> Sub Menu </a></li>
-                               </ul>
-                                </li>
-                            </ul>
+                                <ul>
+                                    <li><a href="#"> Sub Menu </a></li>
+                                    <li><a href="#"> Sub Menu </a></li>
+                                    <li><a href="#"> Sub Menu </a></li>
+                                    <li><a href="#"> Sub Menu </a>
+                                        <ul>
+                                            <li><a href="#"> Sub Menu </a></li>
+                                            <li><a href="#"> Sub Menu </a></li>
+                                            <li><a href="#"> Sub Menu </a></li>
+                                            <li><a href="#"> Sub Menu </a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
                             </li>
                             <li> <a href="#" class="btn-global btn-header"> TEKLİF AL </a></li>
                         </ul>
@@ -65,13 +65,48 @@
             </div>
         </div>
     </header>
- <!-- Header End -->
+    <!-- Header End -->
 
     <main>
+        <!-- Mobil menu start -->
+        <section id="mobil-menu">
+            <div class="mobil-container">
+                <nav>
+                    <ul class="mobil-open">
+                        <i class="fas fa-times close-btn"></i>
+                        <li><a href="#"> Ana Sayfa </a></li>
+                        <li><a href="#"> Hakkımızda </a></li>
+                        <li class="position-relative "><a href="#" class="open-sub"> Hizmetler
+
+                            </a>
+                            <i class="fas position-absolute icon fs-5 fa-angle-right"></i>
+                        </li>
+                        <li><a href="#"> Blog </a> </li>
+                        <li><a href="#"> İletişim </a></li>
+                    </ul>
+                    <ul class="list-two">
+                        <i class="fas fa-times close-btn"></i>
+                        <i class="fas fa-long-arrow-alt-left geri"></i>
+                        <li><a href="#"> Sub Menu </a></li>
+                        <li><a href="#"> Sub Menu </a></li>
+                        <li><a href="#"> Sub Menu </a></li>
+                        <li><a href="#"> Sub Menu </a></li>
+                        <li><a href="#"> Sub Menu </a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+        <!-- Mobil menu end-->
+
+        <!-- bg start -->
         <div class="bg-for-header">
             <img src="./assets/img/Background.png" alt="">
             <img class="img-none" src="./assets/img/Background4.png" alt="">
+            <!-- bg start -->
+
         </div>
+        <!-- bg end -->
+
 
         <!-- Hero start -->
         <section id="hero">
@@ -98,9 +133,9 @@
                 </div>
             </div>
         </section>
-   <!-- Hero end -->
+        <!-- Hero end -->
 
-   <!-- logo area start -->
+        <!-- logo area start -->
         <div class="logo-area">
             <div class="container">
                 <div class="row">
@@ -114,9 +149,9 @@
                 </div>
             </div>
         </div>
-   <!-- logo area end -->
+        <!-- logo area end -->
 
-   <!-- header 1 start -->
+        <!-- header 1 start -->
         <div class="header1">
             <div class="bg2"> <img src="./assets/img/Background3.png" alt=""> </div>
             <div class="container">
@@ -184,9 +219,9 @@
                 </div>
             </div>
         </div>
-   <!-- header 1 end-->
+        <!-- header 1 end-->
 
-<!-- who start -->
+        <!-- who start -->
         <div class="who">
             <div class="container">
                 <div class="row">
@@ -213,71 +248,71 @@
                 </div>
             </div>
         </div>
-<!-- who end -->
+        <!-- who end -->
 
-  <div class="projeler">
-      <div class="container">
-        <div class="d-flex  align-items-center justify-content-between px-1 proje-flex">
-            <h3 class="proje-title">
-                Projelerimiz
-            </h3>
-        <a href="#" class="btn-global">
-            Tümünü Gör
-        </a>
-        </div>
-        <div class="swiper mySwiper swiper-container">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide  d-flex justify-content-center">
-              <div class="swip-item1">
-                    <div class="img-text">
-                    <span class="name">Web Tasarım</span>
-                    <span class="work">  - DijitalSat</span>
+        <div class="projeler">
+            <div class="container">
+                <div class="d-flex  align-items-center justify-content-between px-1 proje-flex">
+                    <h3 class="proje-title">
+                        Projelerimiz
+                    </h3>
+                    <a href="#" class="btn-global">
+                        Tümünü Gör
+                    </a>
                 </div>
-              </div>
-              </div>
-              <div class="swiper-slide d-flex justify-content-center" >
-                <div class="swip-item2">
-                    <div class="img-text">
-                    <span class="name fs-3">Search Engine Optimization </span>
-                    <span class="work">  - Skala.Id</span>
+                <div class="swiper mySwiper swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide  d-flex justify-content-center">
+                            <div class="swip-item1">
+                                <div class="img-text">
+                                    <span class="name">Web Tasarım</span>
+                                    <span class="work"> - DijitalSat</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide d-flex justify-content-center">
+                            <div class="swip-item2">
+                                <div class="img-text">
+                                    <span class="name fs-3">Search Engine Optimization </span>
+                                    <span class="work"> - Skala.Id</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide d-flex justify-content-center ">
+                            <div class="swip-item3">
+                                <div class="img-text">
+                                    <span class="name">Email Marketing
+                                    </span>
+                                    <span class="work"> - Gbgr</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide d-flex justify-content-center ">
+                            <div class="swip-item3">
+                                <div class="img-text">
+                                    <span class="name">Email Marketing
+                                    </span>
+                                    <span class="work"> - Gbgr</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide d-flex justify-content-center ">
+                            <div class="swip-item3">
+                                <div class="img-text">
+                                    <span class="name">Email Marketing
+                                    </span>
+                                    <span class="work"> - Gbgr</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-pagination"></div>
                 </div>
-              </div>
-              </div>
-              <div class="swiper-slide d-flex justify-content-center ">
-                <div class="swip-item3">
-                    <div class="img-text">
-                    <span class="name">Email Marketing 
-                     </span>
-                    <span class="work"> - Gbgr</span>
-                </div>
-              </div>
-              </div>
-              <div class="swiper-slide d-flex justify-content-center ">
-                <div class="swip-item3">
-                    <div class="img-text">
-                    <span class="name">Email Marketing 
-                     </span>
-                    <span class="work"> - Gbgr</span>
-                </div>
-              </div>
-              </div>
-              <div class="swiper-slide d-flex justify-content-center ">
-                <div class="swip-item3">
-                    <div class="img-text">
-                    <span class="name">Email Marketing 
-                     </span>
-                    <span class="work"> - Gbgr</span>
-                </div>
-              </div>
-              </div>
-          
             </div>
-            <div class="swiper-pagination"></div>
-          </div>
-      </div>
-  </div>
+        </div>
 
-<!-- ekip start -->
+        <!-- ekip start -->
         <div class="ekip">
             <div class="container">
                 <div class="heading-global-2">
@@ -320,9 +355,9 @@
                 </div>
             </div>
         </div>
-<!-- ekip end -->
+        <!-- ekip end -->
 
-<!-- slider start -->
+        <!-- slider start -->
         <div class="slider">
             <div class="container">
                 <div class="row">
@@ -476,9 +511,9 @@
                 </div>
             </div>
         </div>
-<!-- slider end -->
+        <!-- slider end -->
 
-<!-- form start -->
+        <!-- form start -->
         <div class="form">
             <div class="container">
                 <div class="row">
@@ -537,9 +572,9 @@
                 </div>
             </div>
         </div>
-<!-- form end -->
+        <!-- form end -->
     </main>
-<!-- footer start -->
+    <!-- footer start -->
     <footer id="footer">
         <div class="container">
             <div class="row">
@@ -631,21 +666,20 @@
             </a>
         </div>
     </footer>
-<!-- footer end  -->
+    <!-- footer end  -->
 
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script>
-          var swiper = new Swiper(".swip", {
-    slidesPerView: 3,
-    spaceBetween: 25,
-    freeMode: true,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-  });
- 
+        var swiper = new Swiper(".swip", {
+            slidesPerView: 3,
+            spaceBetween: 25,
+            freeMode: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
     </script>
     <script src="./assets/js/main.js"></script>
 </body>
