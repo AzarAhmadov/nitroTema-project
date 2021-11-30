@@ -144,6 +144,15 @@ img {
 .clear {
     clear: both;
 }
+.hk-global{
+    font-family: Source Sans Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 64px;
+text-transform: capitalize;
+color: #1D2B4F;
+}
 
 .global-content {
     font-family: Poppins;
@@ -207,6 +216,50 @@ img {
     margin-left: 134px;
 }
 
+.card-flex-item .num {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 48px;
+    text-transform: capitalize;
+    color: #FF9E2C;
+    margin-right: 16px;
+    margin-left: 16px;
+    margin-top: 16px;
+}
+.hk-left-item  .hk-global{
+    margin-bottom: 68px;
+}
+.hk-left-item .global-content{
+    margin-bottom: 24px;
+}
+.card-flex-item {
+    border: 1px solid #CCCCCC;
+box-sizing: border-box;
+border-radius: 8px;
+margin-bottom: 16px;
+}
+.card-flex-item .global-content{
+    margin-left: 66px;
+    margin-top: 18px;
+}
+.card-flex-item .yt{
+    font-family: Source Sans Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 32px;
+text-transform: capitalize;
+color: #1D2B4F;
+margin-top: 21px;
+}
+.hk-right-item {
+    margin-left: 30px;
+}
+.hk-right-item img{
+    height:800px;
+}
 #body.active {
     overflow: hidden;
 }
@@ -215,6 +268,46 @@ img {
     display: flex;
     align-items: center;
     height: 120px;
+}
+
+.reyting{
+    margin-top: 160px;
+    width: 100%;
+    background: #0C1A39;
+    height: 244px;
+       display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.reyting .reyting-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.reyting .reyting-item .num-title{
+    font-family: Source Sans Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 64px;
+text-align: center;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+
+.reyting .reyting-item span{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 32px;    
+    text-align: center;
+    text-transform: capitalize;    
+    color: #E6E6E6;
+}
+.reyting .col-lg-3{
+    display: flex;
+    justify-content: center;
 }
 
 .projeler {
@@ -1060,6 +1153,42 @@ img {
 #mobil-menu .mobil-open li a {
     color: #000;
     font-size: 23px;
+}
+
+.breadcrump{
+    width: 100%;
+    background-size: cover;
+    z-index: -1;
+    position: relative;
+    height: 430px;
+    background: #0C1A39;
+   transform: translateY(-120px);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.breadcrump .crump-title{
+    margin-top: 110px;
+    position: relative;
+    z-index: 100 !important;
+    font-family: Source Sans Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 88px;
+text-align: center;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+.breadcrump  .crump-content{
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 27px;
+text-align: center;
+color: #FFFFFF;
 }
 
 
