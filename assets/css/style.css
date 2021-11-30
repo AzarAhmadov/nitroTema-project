@@ -302,7 +302,7 @@ img {
     position: relative;
 }
 
-.navbar .nav-list li>ul {
+.navbar .nav-list li > ul {
     position: absolute;
     left: 0;
     padding: 10px 20px;
@@ -358,11 +358,11 @@ img {
     color: #FFFFFF;
 }
 
-.navbar .nav-list>li svg {
+.navbar .nav-list > li svg {
     transform: rotate(-180deg);
 }
 
-.navbar .nav-list>li:hover svg {
+.navbar .nav-list > li:hover svg {
     transform: rotate(-1deg);
 }
 
