@@ -1324,6 +1324,12 @@ color: #FFFFFF;
 
 }
 
+@media only screen and (max-width:1024px){
+    #footer{
+        margin-top: 184px;
+    }
+}
+
 @media only screen and (max-width:992px) {
     .reyting{
         margin-top: 40px;
@@ -1518,6 +1524,9 @@ color: #FFFFFF;
 }
 
 @media only screen and (max-width:768px) {
+    #footer{
+        margin-top: 84px;
+    }
     .reyting {
     height: auto;
     padding: 15px 0;
