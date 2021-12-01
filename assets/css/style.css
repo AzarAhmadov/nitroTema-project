@@ -1251,9 +1251,7 @@ color: #FFFFFF;
 
 
 @media only screen and (max-width:1200px) {
-    .slider{
-        margin-bottom: 100px;
-    }
+   
     .epost .epost-left .global-content br{
         display: none;
     }
@@ -1544,7 +1542,7 @@ color: #FFFFFF;
     }
 
     .form {
-        height: 1000px;
+        height: 1040px;
     }
 
     .form .form-grid div {
@@ -1573,8 +1571,9 @@ color: #FFFFFF;
 
     .form form .text-area {
         width: 340px;
-
-
+    }
+     .slider{
+        margin-bottom: 0px !important;
     }
 }
 
@@ -1596,7 +1595,7 @@ margin-top: -80px;
         margin-top: 30px;
     }
     .ekip{
-        margin-top: 400px !important;
+        margin-top: 40px !important;
     }
     .epost-left.right img{
         width: 90%;
@@ -1643,8 +1642,8 @@ margin-top: -80px;
     }
 
     .form {
-        padding-top: 30px;
-        height: 1050px;
+        padding-top: 0;
+        height: 1010px;
     }
 
     .form-left .form-grid {
