@@ -1578,6 +1578,9 @@ color: #FFFFFF;
 }
 
 @media only screen and (max-width:600px) {
+    .proje-flex .proje-title {
+        font-size: 35px;
+    }
     .hk-item{
 margin-top: -80px;
     }
