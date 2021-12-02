@@ -68,10 +68,13 @@ geriBtn.addEventListener("click", () => {
   listTwo.classList.remove("active");
 });
 
-let openSual = document.querySelector('.sr');
-let noneP = document.querySelector('.none-p');
+const sr = document.querySelectorAll('.sr');
+const noneP = document.querySelectorAll('.none-p');
+const plusIcon = document.querySelectorAll('.plus-icon')
 
-  openSual.addEventListener('click', () => {
-    openSual.classList.toggle('active')
-    noneP.classList.toggle('active')
+for(let i = 0 ; i<sr.length || i<noneP.length || i<plusIcon.length ; i++){
+  sr[i].addEventListener('click', () => {
+    noneP[i].classList.toggle('active');
+    sr[i].classList.toggle('active');
   })
+}

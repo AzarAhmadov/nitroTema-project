@@ -145,6 +145,11 @@ img {
     clear: both;
 }
 
+.fa-minus{
+    color:#fff;
+    font-size: 22px;
+}
+
 .hk-global {
     font-family: Source Sans Pro;
     font-style: normal;
@@ -462,9 +467,9 @@ img {
 }
 
 .soru .soru-margin {
-    margin-bottom: 56px;
-    padding-right: 78px;
+    margin-bottom: 50px;
 }
+
 
 .soru .soru-margin .btn-global {
     background: transparent;
@@ -510,20 +515,26 @@ img {
 
 .soru-area .soru-left {
     border-radius: 8px;
+    padding:24px;
     width: 712px;
     height: 88px;
-    padding-left: 33px;
-    padding-top: 32px;
-    padding-right: 27px;
     cursor: pointer;
-    padding-bottom: 36px;
     background: #FFFFFF;
     border: 1px solid #E6E6E6;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.soru-area .soru-left i{
+    font-size: 23px;
 }
 
-.soru-area .sr.active {
-    height: 220px;
+.soru-area .sr{
+    margin-bottom: 13px;
+}
+.soru-area .sr.active{
+    height: auto;
 }
 
 .soru-area .sr.active p {
@@ -534,73 +545,12 @@ img {
     color: #fff;
 }
 
-.soru-right {
-    cursor: pointer;
-    width: 504px;
-    height: 88px;
-    background: #FFFFFF;
-    border: 1px solid #E6E6E6;
-    box-sizing: border-box;
-    border-radius: 8px;
-    padding-top: 32px;
-    padding-left: 32px;
-    padding-right: 36px;
-    margin-bottom: 16px;
-}
-
-.soru-right i {
-    color: #000;
-    font-size: 19px;
-    cursor: pointer;
-}
-
-.soru-left,
-.soru-left2 i {
-    font-size: 19px;
-    cursor: pointer;
-
-}
-
-.soru-right p {
-    font-family: Source Sans Pro;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 17px;
-    line-height: 24px;
-    color: #1D2B4F;
-
-}
-
 .soru-area .soru-left .soru-title {
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: bold;
     font-size: 21px;
     line-height: 32px;
-    color: #1D2B4F;
-    margin-bottom: 20px;
-}
-
-.soru-area .soru-left2 {
-    width: 712px;
-    padding-left: 32px;
-    padding-right: 26px;
-    padding-top: 32px;
-    height: 88px;
-    background: #FFFFFF;
-    border: 1px solid #E6E6E6;
-    box-sizing: border-box;
-    border-radius: 8px;
-    margin-top: 16px;
-    cursor: pointer;
-}
-
-.soru-area .soru-left2 p {
-    font-family: Source Sans Pro;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 21px;
-    line-height: 24px;
     color: #1D2B4F;
 }
 
@@ -1674,10 +1624,6 @@ img {
         width: auto;
     }
 
-    .soru-area .soru-left2 {
-        width: auto;
-    }
-
     .epost .epost-left .global-content br {
         display: none;
     }
@@ -1810,6 +1756,7 @@ img {
         align-items: center;
         padding: 0;
         text-align: center;
+        margin-bottom: 40px;
     }
 
     .soru .col-lg-6 {
@@ -1822,15 +1769,7 @@ img {
     .soru-area .soru-left {
         width: 500px;
     }
-
-    .soru-area .soru-left2 {
-        width: 500px;
-    }
-
-    .soru-right {
-        width: 500px;
-    }
-
+  
     .reyting {
         margin-top: 40px;
     }
@@ -2097,6 +2036,10 @@ img {
 }
 
 @media only screen and (max-width:600px) {
+    .none-p{
+        margin-top: 9px;
+        padding: 0 !important;
+    }
     .last {
         margin-top: 70px;
     }
@@ -2115,21 +2058,6 @@ img {
 
     .soru-area .soru-left {
         width: 390px;
-        padding-top: 29px;
-    }
-
-    .soru-area .soru-left2 {
-        width: 390px;
-        padding-top: 19px;
-    }
-
-    .soru-right {
-        padding-top: 19px;
-        width: 390px;
-    }
-
-    .soru-right .soru-content {
-        font-size: 21px;
     }
 
     .servis .rowone .kapsa-col .row {
@@ -2351,16 +2279,10 @@ img {
 
     .soru-area .soru-left {
         width: 320px;
-        padding-top: 20px;
-    }
-
-    .soru-area .soru-left2 {
-        width: 320px;
-        padding-top: 19px;
     }
 
     .soru-area .soru-left .global-content {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .soru-area .soru-left .soru-title {
@@ -2370,11 +2292,6 @@ img {
 
     .soru-content {
         font-size: 17px !important;
-    }
-
-    .soru-right {
-        padding-top: 19px;
-        width: 320px;
     }
 
     .who-right img {
