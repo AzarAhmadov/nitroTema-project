@@ -67,3 +67,11 @@ openSub.addEventListener("click", () => {
 geriBtn.addEventListener("click", () => {
   listTwo.classList.remove("active");
 });
+
+let openSual = document.querySelector('.sr');
+let noneP = document.querySelector('.none-p');
+
+  openSual.addEventListener('click', () => {
+    openSual.classList.toggle('active')
+    noneP.classList.toggle('active')
+  })
