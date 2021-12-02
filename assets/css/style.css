@@ -1717,6 +1717,10 @@ img {
         display: flex;
         justify-content: space-evenly;
     }
+    
+     .hero-left .heading{
+        text-align: center;
+    }
 
     .last-left {
         display: flex;
