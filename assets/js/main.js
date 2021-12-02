@@ -76,5 +76,6 @@ for(let i = 0 ; i<sr.length || i<noneP.length || i<plusIcon.length ; i++){
   sr[i].addEventListener('click', () => {
     noneP[i].classList.toggle('active');
     sr[i].classList.toggle('active');
+    plusIcon[i].classList.toggle('active')
   })
 }

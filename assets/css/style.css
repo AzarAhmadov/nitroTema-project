@@ -532,6 +532,10 @@ img {
     font-size: 23px;
 }
 
+.soru-area .soru-left i.active{
+    color:#fff;
+}
+
 .soru-area .sr{
     margin-bottom: 13px;
 }
