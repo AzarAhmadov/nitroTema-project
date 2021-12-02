@@ -512,7 +512,9 @@ img {
     line-height: 27px;
     color: #798196;
 }
-
+.soru-title{
+    margin: 0;
+}
 .soru-area .soru-left {
     border-radius: 8px;
     padding:24px;
