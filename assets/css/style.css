@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins:wght@100;200;300;400&family=Roboto:wght@100;300;400;500&family=Spartan:wght@400;500;600&family=Work+Sans:wght@200;300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins:wght@100;200;300;400&family=Roboto:wght@100;300;400;500&family=Source+Sans+Pro:wght@300;400;700&family=Spartan:wght@400;500;600&family=Work+Sans:wght@200;300;400;500&display=swap');
-
+:root{
+    --color-1:#1D2B4F;
+    --color-2:#fff;
+    --color-3:#798196;
+    --color-4:#FF9E2C;
+    --color-5:#E6E6E6;
+    --color-6:#CCCCCC;
+    --color-7:#A1B71C;
+    --color-8:#000;
+}
 html,
 body,
 div,
@@ -146,7 +155,7 @@ img {
 }
 
 .fa-minus{
-    color:#fff;
+    color:var(--color-2);
     font-size: 22px;
 }
 
@@ -157,7 +166,7 @@ img {
     font-size: 48px;
     line-height: 64px;
     text-transform: capitalize;
-    color: #1D2B4F;
+    color: var(--color-1);
 }
 
 .global-content {
@@ -166,7 +175,7 @@ img {
     font-weight: normal;
     font-size: 16px;
     line-height: 27px;
-    color: #798196;
+    color: var(--color-3);
 }
 
 .img-none {
@@ -174,7 +183,7 @@ img {
 }
 
 .global-title {
-    color: #1D2B4F;
+    color: var(--color-1);
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: bold;
@@ -191,7 +200,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff !important;
+    color: var(--color-2) !important;
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: 600;
@@ -235,7 +244,7 @@ img {
     font-size: 48px;
     line-height: 64px;
     margin-bottom: 20px;
-    color: #1D2B4F;
+    color: var(--color-1);
 }
 
 .servis {
@@ -289,7 +298,7 @@ img {
     font-size: 32px;
     line-height: 48px;
     text-align: center;
-    color: #FFFFFF;
+    color: var(--color-2);
     margin-left: 20px;
 }
 
@@ -299,7 +308,7 @@ img {
     font-weight: bold;
     font-size: 14px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: var(--color-2);
     margin-left: 54px;
 }
 
@@ -313,7 +322,7 @@ img {
     justify-content: center;
     background: #FF9E2C;
     font-size: 20px;
-    color: #fff;
+    color: var(--color-2);
 }
 
 .servis-card .servis-title {
@@ -323,7 +332,7 @@ img {
     font-size: 32px;
     line-height: 48px;
     text-transform: capitalize;
-    color: #798196;
+    color: var(--color-3);
     margin-top: 15px;
 }
 
@@ -332,11 +341,11 @@ img {
 }
 
 .servis-card.servis-card:hover .global-content {
-    color: #fff;
+    color: var(--color-2);
 }
 
 .servis-card.servis-card:hover .servis-title {
-    color: #fff;
+    color: var(--color-2);
 }
 
 .servis-card .global-content {
@@ -384,7 +393,7 @@ img {
     font-weight: normal;
     font-size: 16px;
     line-height: 27px;
-    color: #FFFFFF;
+    color: var(--color-2);
 }
 
 .money-item .money-title {
@@ -394,7 +403,7 @@ img {
     font-weight: bold;
     font-size: 48px;
     line-height: 64px;
-    color: #FFFFFF;
+    color: var(--color-2);
 }
 
 .money-item .money {
@@ -404,16 +413,16 @@ img {
     font-size: 48px;
     line-height: 64px;
     text-transform: capitalize;
-    color: #FFFFFF;
+    color: var(--color-2);
 }
 
 .money-item .buy-btn {
     margin-top: 40px;
     border-radius: 8px;
     width: 192px;
-    color: #fff;
+    color: var(--color-2);
     height: 56px;
-    border: 1px solid #fff;
+    border: 1px solid var(--color-2);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -447,7 +456,7 @@ img {
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: bold;
-    color: #fff;
+    color: var(--color-2);
     margin-bottom: 32px;
     display: flex;
     align-items: center;
@@ -473,8 +482,8 @@ img {
 
 .soru .soru-margin .btn-global {
     background: transparent;
-    border: 1px solid #FF9E2C;
-    color: #FF9E2C !important;
+    border: 1px solid var(--color-4);
+    color: var(--color-4) !important;
 }
 
 .card-flex-item .num {
@@ -484,7 +493,7 @@ img {
     font-size: 32px;
     line-height: 48px;
     text-transform: capitalize;
-    color: #FF9E2C;
+    color: var(--color-4);
     margin-right: 16px;
     margin-left: 16px;
     margin-top: 16px;
@@ -501,7 +510,7 @@ img {
     font-size: 48px;
     line-height: 64px;
     text-transform: capitalize;
-    color: #1D2B4F;
+    color: var(--color-1);
 }
 
 .soru p {
@@ -510,7 +519,7 @@ img {
     font-weight: normal;
     font-size: 16px;
     line-height: 27px;
-    color: #798196;
+    color: var(--color-3);
 }
 .soru-title{
     margin: 0;
@@ -533,7 +542,7 @@ img {
 }
 
 .soru-area .soru-left i.active{
-    color:#fff;
+    color:var(--color-2);
 }
 
 .soru-area .sr{
@@ -544,11 +553,11 @@ img {
 }
 
 .soru-area .sr.active p {
-    color: #fff;
+    color: var(--color-2);
 }
 
 .soru-area .sr.active .soru-title {
-    color: #fff;
+    color: var(--color-2);
 }
 
 .soru-area .soru-left .soru-title {
@@ -557,7 +566,7 @@ img {
     font-weight: bold;
     font-size: 21px;
     line-height: 32px;
-    color: #1D2B4F;
+    color: var(--color-1);
 }
 
 
@@ -600,7 +609,7 @@ img {
     font-size: 24px;
     line-height: 32px;
     text-transform: capitalize;
-    color: #1D2B4F;
+    color: var(--color-1);
     margin-top: 21px;
 }
 
@@ -646,7 +655,7 @@ img {
     line-height: 64px;
     text-align: center;
     text-transform: capitalize;
-    color: #FFFFFF;
+    color: var(--color-2);
 }
 
 .reyting .reyting-item span {
@@ -657,7 +666,7 @@ img {
     line-height: 32px;
     text-align: center;
     text-transform: capitalize;
-    color: #E6E6E6;
+    color: var(--color-5);
 }
 
 .reyting .col-lg-3 {
@@ -688,7 +697,7 @@ img {
 }
 
 .epost .epost-left h2 {
-    color: #fff;
+    color: var(--color-2);
 }
 
 .epost .epost-left form {
@@ -698,8 +707,8 @@ img {
 .epost .epost-left form #epost {
     width: 470px;
     height: 64px;
-    background: #FFFFFF;
-    border: 1px solid #E6E6E6;
+    background:var(--color-2);
+    border: 1px solid var(--color-5);
     box-sizing: border-box;
     border-radius: 8px;
     padding-left: 16px;
@@ -720,7 +729,7 @@ img {
 }
 
 .epost .epost-left .global-content {
-    color: #fff;
+    color: var(--color-2);
     margin-top: 20px;
 }
 
@@ -775,7 +784,7 @@ img {
 
 
 .open-menu {
-    color: #fff;
+    color: var(--color-2);
     font-size: 22px;
     display: none;
 }
@@ -793,7 +802,7 @@ img {
     line-height: 32px;
     text-transform: capitalize;
     margin-left: 8px;
-    color: #FFFFFF;
+    color: var(--color-2);
 
 }
 
@@ -844,7 +853,7 @@ img {
     font-weight: normal;
     font-size: 16px;
     line-height: 27px;
-    color: #E6E6E6;
+    color: var(--color-5);
 }
 
 .navbar>.nav-list>.nav-item .nav-link {
@@ -853,7 +862,7 @@ img {
     font-weight: normal;
     font-size: 16px;
     line-height: 27px;
-    color: #E6E6E6;
+    color: var(--color-5);
 }
 
 .navbar .nav-list>li .nav-link.active {
@@ -862,7 +871,7 @@ img {
     font-weight: bold;
     font-size: 16px;
     line-height: 32px;
-    color: #FFFFFF;
+    color: var(--color-2);
 }
 
 .navbar .nav-list>li svg {
@@ -884,7 +893,7 @@ img {
     font-size: 64px;
     line-height: 88px;
     text-transform: capitalize;
-    color: #fff;
+    color: var(--color-2);
     text-align: start;
 }
 
@@ -896,7 +905,7 @@ img {
     line-height: 27px;
     margin-top: 24px;
     margin-bottom: 40px;
-    color: #fff;
+    color: var(--color-2);
 }
 
 .bg-for-header {
@@ -958,7 +967,7 @@ img {
     font-size: 48px;
     line-height: 64px;
     text-transform: capitalize;
-    color: #FFFFFF;
+    color: var(--color-2);
 }
 
 .heading-global p {
@@ -967,7 +976,7 @@ img {
     font-weight: normal;
     font-size: 16px;
     line-height: 27px;
-    color: #FFFFFF;
+    color:var(--color-2);
     margin-top: 120px;
 }
 
@@ -1000,23 +1009,23 @@ img {
 }
 
 .card-item:hover .card-content {
-    color: #fff;
+    color: var(--color-2);
 }
 
 .card-item:hover .card-heading {
-    color: #fff;
+    color: var(--color-2);
 }
 
 .card-item:hover i {
-    background: #fff;
+    background: var(--color-2);
 }
 
 .card-item.blue .card-heading {
-    color: #1D2B4F;
+    color: var(--color-1);
 }
 
 .card-content {
-    color: #fff;
+    color: var(--color-2);
 }
 
 .card-item .card-heading {
@@ -1025,7 +1034,7 @@ img {
     font-weight: bold;
     font-size: 32px;
     line-height: 48px;
-    color: #1D2B4F;
+    color: var(--color-1);
 }
 
 .card-item i {
@@ -1047,7 +1056,7 @@ img {
     font-weight: normal;
     font-size: 16px;
     line-height: 27px;
-    color: #798196;
+    color: var(--color-3);
 }
 
 .who {
@@ -1146,7 +1155,7 @@ img {
     line-height: 48px;
     text-align: center;
     text-transform: capitalize;
-    color: #FFFFFF;
+    color: var(--color-2);
 }
 
 .img-text .work {
@@ -1157,7 +1166,7 @@ img {
     line-height: 32px;
     text-align: center;
     text-transform: capitalize;
-    color: #FFFFFF;
+    color: var(--color-2);
 }
 
 .slider {
@@ -1184,7 +1193,7 @@ img {
     font-size: 32px;
     line-height: 48px;
     text-transform: capitalize;
-    color: #FFFFFF;
+    color: var(--color-2);
     margin-bottom: 10px;
 }
 
@@ -1194,7 +1203,7 @@ img {
     font-weight: normal;
     font-size: 16px;
     line-height: 27px;
-    color: #FFFFFF;
+    color: var(--color-2);
 }
 
 .slider-right .slid-profil {
@@ -1213,7 +1222,7 @@ img {
     font-size: 24px;
     line-height: 32px;
     text-transform: capitalize;
-    color: #FFFFFF;
+    color: var(--color-2);
 
 }
 
@@ -1228,7 +1237,7 @@ img {
     font-size: 48px;
     line-height: 64px;
     text-transform: capitalize;
-    color: #1D2B4F;
+    color:var(--color-1);
 }
 
 .slider-right {
@@ -1239,7 +1248,7 @@ img {
     font-family: Poppins;
     font-size: 12px;
     line-height: 24px;
-    color: #CCCCCC;
+    color: var(--color-6);
 }
 
 .slider .swiper-wrapper {
@@ -1269,12 +1278,12 @@ img {
     font-size: 32px;
     line-height: 48px;
     text-transform: capitalize;
-    color: #FFFFFF;
+    color: var(--color-2);
     margin-bottom: 20px;
 }
 
 .form-left .global-content {
-    color: #fff;
+    color: var(--color-2);
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
@@ -1290,18 +1299,17 @@ img {
 }
 
 .form-left .form-grid .form-name {
-    color: #fff;
+    color: var(--color-2);
     margin-top: 16px;
     font-family: Poppins;
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
     line-height: 27px;
-    color: #FFFFFF;
 }
 
 .form-left .form-grid i {
-    color: #FF9E2C;
+    color: var(--color-4);
     font-size: 30px;
     margin-right: 11px;
 }
@@ -1312,7 +1320,7 @@ img {
     font-weight: 600;
     font-size: 24px;
     line-height: 32px;
-    color: #FF9E2C;
+    color: var(--color-4);
 }
 
 .form {
@@ -1331,7 +1339,7 @@ img {
     font-family: Poppins;
     font-size: 14px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: var(--color-2);
     margin-bottom: 10px;
 }
 
@@ -1404,7 +1412,7 @@ img {
     font-weight: normal;
     font-size: 16px;
     line-height: 27px;
-    color: #798196;
+    color: var(--color-3);
 }
 
 .footer-item ul.sosial-list {
@@ -1427,7 +1435,7 @@ img {
 }
 
 .footer-item ul.sosial-list li a i {
-    color: #fff;
+    color:var(--color-2);
 }
 
 #footer {
@@ -1441,7 +1449,7 @@ img {
     font-size: 24px;
     line-height: 32px;
     text-transform: capitalize;
-    color: #1D2B4F;
+    color: var(--color-1);
     margin-bottom: 16px;
 }
 
@@ -1455,7 +1463,7 @@ img {
     font-weight: normal;
     font-size: 16px;
     line-height: 27px;
-    color: #798196;
+    color: var(--color-3);
 }
 
 .footer-bottom {
@@ -1470,7 +1478,7 @@ img {
 }
 
 .footer-bottom a {
-    color: #FFFFFF !important;
+    color: var(--color-2) !important;
     font-family: Poppins;
     font-style: normal;
     font-weight: 300;
@@ -1485,7 +1493,7 @@ img {
 }
 
 .footer-bottom a .tema {
-    color: #A1B71C;
+    color: var(--color-7);
     font-weight: 700;
     margin-right: 5px;
 }
@@ -1530,7 +1538,7 @@ img {
 }
 
 #mobil-menu .list-two li a {
-    color: #000;
+    color: var(--color-8);
     font-size: 23px;
 }
 
@@ -1571,7 +1579,7 @@ img {
 }
 
 #mobil-menu .mobil-open li a {
-    color: #000;
+    color: var(--color-8);
     font-size: 23px;
 }
 
@@ -1599,7 +1607,7 @@ img {
     line-height: 88px;
     text-align: center;
     text-transform: capitalize;
-    color: #FFFFFF;
+    color: var(--color-2);
 }
 
 .breadcrump .crump-content {
@@ -1609,7 +1617,7 @@ img {
     font-size: 16px;
     line-height: 27px;
     text-align: center;
-    color: #FFFFFF;
+    color: var(--color-2);
 }
 
 
@@ -1716,10 +1724,6 @@ img {
         padding-left: 0;
         display: flex;
         justify-content: space-evenly;
-    }
-    
-     .hero-left .heading{
-        text-align: center;
     }
 
     .last-left {
@@ -1886,7 +1890,7 @@ img {
     }
 
     .slider-left .global-title {
-        color: #fff;
+        color: var(--color-2);
         text-align: center;
         margin-top: -60px;
     }
@@ -1978,6 +1982,9 @@ img {
 
     .logo-area .col-12 {
         justify-content: center !important;
+    }
+    .hero-left .heading{
+        text-align: center;
     }
 }
 
